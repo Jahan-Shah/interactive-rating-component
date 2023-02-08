@@ -68,6 +68,7 @@ export default {
   height: 42px;
   border-radius: 2.5rem;
   background-color: var(--primary-color);
+  color: white;
   border: 0;
   font-size: 0.875rem;
 }
