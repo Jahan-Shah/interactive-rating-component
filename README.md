@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [My Live Site](https://fem-product-card-component-main.netlify.app/)
+- Live Site URL: [My Live Site](https://fem-interactive-rating-component-main.netlify.app/)
 
 ## My process
 
