@@ -1,5 +1,5 @@
 <template>
-  <div class="panel" v-show="screen == 'rating'">
+  <div class="panel" v-if="screen == 'rating'">
     <img class="star" src="../assets/icon-star.svg" alt="orange star" />
 
     <div class="content">
@@ -19,7 +19,7 @@
     <button class="submit" @click="ratingSubmit()">SUBMIT</button>
   </div>
 
-  <div class="thank-you" v-show="screen == 'thank you'">
+  <div class="thank-you" v-if="screen == 'thank you'">
     <img src="../assets/illustration-thank-you.svg" alt="thank you" />
     <p class="selected-rating">You selected {{ rating }} out of 5</p>
     <h1>Thank you!</h1>
