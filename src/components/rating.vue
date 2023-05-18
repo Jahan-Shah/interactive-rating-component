@@ -30,20 +30,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      screen: "rating",
-      rating: 0,
-    };
-  },
-  methods: {
-    ratingSubmit() {
-      if (this.rating > 0) this.screen = "thank you";
-    },
-  },
-};
+<script setup>
+import { ref } from "vue";
+
+const screen = ref("rating");
+const rating = ref(0);
+
+function ratingSubmit() {
+  if (rating.value) screen.value = "thank you";
+}
 </script>
 
 <style scoped>
